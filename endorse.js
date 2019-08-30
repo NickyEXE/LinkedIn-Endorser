@@ -25,12 +25,12 @@ const endorseASkill = (skillButtonNumber, skillValue) => {
 const endorseAllTheSkills = (skillValue) => {
     let iterator = 0
     const waitThenFillForm = () => {
-        setTimeout(()=> fillOutForm(skillValue), iterator+2000)
+        setTimeout(()=> fillOutForm(skillValue), iterator+1000)
     }
     [...allButtons()].forEach(button => {
         setTimeout(()=>button.children[0].click(), iterator)
         waitThenFillForm()
-        iterator += 3000
+        iterator += 2000
     })
 }
 //Paste this code into the console and then you can call functions such as:
