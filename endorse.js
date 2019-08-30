@@ -5,7 +5,7 @@ const rankPerson = (n) => document.querySelector(".pv-endorsement-followup__radi
 
 
 //Alternatively for each option: "WORKED_TOGETHER_DIRECTLY", "MANAGED_DIRECTLY", "REPORTED_DIRECTLY", "WORKED_TOGETHER_INDIRECTLY", "HEARD_ABOUT", "NONE"
-const workedTogetherDirectly = () => document.querySelectorAll("select")[1].value = "WORKED_TOGETHER_DIRECTLY"
+const workedTogetherDirectly = () => document.querySelector(".pv-endorsement-followup__select").value = "WORKED_TOGETHER_DIRECTLY"
 
 const submit = () => document.querySelector(".pv-endorsement-followup__footer").children[0].click()
 
