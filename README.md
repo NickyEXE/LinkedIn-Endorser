@@ -11,7 +11,7 @@ Ensure the buttons to endorse someone is loaded, and then call one of the two fu
 
 This is a helper method but feel free to use it directly. It takes in two arguments, the index of the button in the array of all skill buttons on the page (so the first button to render is 0, second is 1, third is 2, etc. etc.).
 
-The second argument is a skill value, it takes 0 for "Good", 1 for "Very Good", and 2 for "Highly Skilled." This will note that you worked together directly unless you revise the code for the function `workedTogetherDirectly()`. See below under (Customize your Script!)[#Customize your Script!]
+The second argument is a skill value, it takes 0 for "Good", 1 for "Very Good", and 2 for "Highly Skilled." This will note that you worked together directly unless you revise the code for the function `workedTogetherDirectly()`. See below under [Customize your Script!](#Customize your Script!)
 
 This really didn't need to be included as a function in the README but I'm already fully deep into this documentation for this ridiculous script so I'm leaning into it by writing it all down.
 
