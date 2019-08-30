@@ -1,11 +1,13 @@
-# LinkedIn-Endorser
+# LinkedIn Endorser
 Sometimes you want to be incredibly supportive and endorse your friend for everything.
 
 # What is this?
 A script that will likely break next time LinkedIn updates something. It gives you two commands -- Endorse a skill, and Endorse all the skills.
 
 # How do I use this script? 
-Ensure the buttons to endorse someone is loaded (You have to scroll down to the skills section to load it. If you want to endorse them for absolutely everything, be sure to click on the "See More" button under skills first.), and then call one of the two functions in the console.
+Ensure the buttons to endorse someone is loaded (You have to scroll down to the skills section to load it. If you want to endorse them for absolutely everything, be sure to click on the "See More" button under skills first.). 
+
+Then, use one of the below two functions.
 
 # Endorse a Skill
 
