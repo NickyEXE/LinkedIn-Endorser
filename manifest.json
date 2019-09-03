@@ -1,6 +1,6 @@
 {
     "name": "LinkedIn Endorser",
-    "version": "0.1",
+    "version": "0.2",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "description": "An extension to endorse someone for everything on LinkedIn.",
     "background": {
