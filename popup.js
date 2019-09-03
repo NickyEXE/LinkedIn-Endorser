@@ -6,6 +6,7 @@ endorse.onclick = function(element) {
       chrome.tabs.executeScript(
           tabs[0].id, 
           {code: `
+          console.log("hello there")
           const checkIfSkillsLoaded = () => !!document.querySelector(".pv-skill-categories-section")
           const scroll = () => window.scrollBy({
               top: 100,
