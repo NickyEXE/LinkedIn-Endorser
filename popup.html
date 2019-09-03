@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        margin: 5px
+      }
+    </style>
+  </head>
+  <body>
+      <center>
+    <h3>This app will work when you're on the LinkedIn page of someone you're connected with.</h3>
+    <div id="paramsForEndorsing">
+    <label>Before you endorse, how good are they?<br/> <select name="howGoodAreThey">
+        <option value="0">Good</option>
+        <option value="1">Very Good</option>
+        <option value="2">Highly Skilled</option>
+    </select>
+    </label>
+    <br/>
+    <br/>
+    <label>How did you work with them?<br/> <select name="howWeWorkedTogether">
+            <option value="WORKED_TOGETHER_DIRECTLY">We worked together directly.</option>
+            <option value="MANAGED_DIRECTLY">I managed them directly.</option>
+            <option value="REPORTED_DIRECTLY">I reported to them directly.</option>
+            <option value="WORKED_TOGETHER_INDIRECTLY">We worked together indirectly.</option>
+            <option value="HEARD_ABOUT">I have heard about them. Their prowess is reknowned.</option>
+            <option value="NONE">None of the above.</option>
+        </select>
+    </label>
+    </div>
+    <br/>
+    <button id="endorse">Endorse them for all the things! </button>
+    </center>
+    <script src="popup.js"></script>
+  </body>
+</html>
