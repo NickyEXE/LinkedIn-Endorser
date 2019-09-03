@@ -1,3 +1,23 @@
+// This is the script version! It still works! But I'd instead use the chrome extension.
+
+const checkIfSkillsLoaded = () => !!document.querySelector(".pv-skill-categories-section")
+const scroll = () => window.scrollBy({
+    top: 100,
+    left: 0,
+  })
+
+const scrollAndThenEndorseAllTheSkills = (skillLevel, howWeWorkedTogether) => {
+    if (checkIfSkillsLoaded()){
+        scroll()
+        document.querySelector(".pv-skills-section__additional-skills").click()
+        setTimeout(() => endorseAllTheSkills(skillLevel, howWeWorkedTogether), 50)
+    }
+    else {
+        scroll()
+        setTimeout(() => scrollAndThenEndorseAllTheSkills(skillLevel, howWeWorkedTogether), 50)
+    }	
+}
+
 const allButtons = () => document.querySelectorAll(".pv-skill-category-entity__endorse-action")
 
 // Make n 0 for good, 1 for very good, or 2 for Highly Skilled
@@ -44,3 +64,6 @@ const endorseAllTheSkills = (skillValue, howDidIWorkWithYou) => {
 
 //Endorse a skill by its button number as very good for someone who you reported to
 // endorseASkill(0, 1, "REPORTED_DIRECTLY")
+
+// If you want to skip scrolling down and opening up the "Additional Skills" section, you can use 
+scrollAndThenEndorseAllTheSkills(2, "WORKED_TOGETHER_DIRECTLY")
