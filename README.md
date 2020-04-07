@@ -2,7 +2,14 @@
 Sometimes you want to be incredibly supportive and endorse your friend for everything.
 
 # What is this?
-A Google Chrome extension that will likely break next time LinkedIn updates something. It gives you two commands -- Endorse a skill, and Endorse all the skills.
+A Google Chrome extension that will likely break next time LinkedIn updates something. It gives users the ability to endorse their friends for all their skills. It was built to show my students JavaScript in action. It's available in the Chrome store [here][https://chrome.google.com/webstore/detail/linkedin-endorser/plpojgnkonpbkjhmlgaoehheeodhango?hl=en-US].
+
+
+# What if I want to just steal your script?
+
+That's totally cool! Check out the file [endorse.js!][https://github.com/NickyEXE/LinkedIn-Endorser/blob/master/endorse.js]
+
+It gives you two commands -- Endorse a skill, and Endorse all the skills.
 
 # How do I use this script? 
 Ensure the buttons to endorse someone is loaded -- You have to scroll down to the skills section to load it. If you want to endorse them for absolutely everything, be sure to click on the "See More" button under skills first on the LinkedIn page.
